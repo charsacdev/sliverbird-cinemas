@@ -277,7 +277,7 @@ body {
 
 @media (max-width: 768px) {
     .sidebar {
-        left: -200px; /* Hide sidebar by default on smaller screens */
+        left: 0px; /* Hide sidebar by default on smaller screens */
         transition: left 0.3s ease;
     }
 
@@ -572,6 +572,7 @@ body {
 
 .modal-overlay.show {
     display: flex;
+   
 }
 
 /* Validation Modal */
